@@ -1,0 +1,38 @@
+.app {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+
+}
+
+.header-container {
+    width: 100%;
+    height: 60px;
+}
+
+.app-sidebar-container {
+    height: 100%;
+    width: 20%;
+    margin-top: -60px;
+}
+
+.content-container {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+}
+
+@media screen and (max-width: 500px) {
+    .sidebar-container {
+        width: 100%;
+
+    }
+
+    .content-container {
+        width: 100%;
+        margin-left: 0;
+    }
+}
